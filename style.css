@@ -1,0 +1,306 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.nav {
+  color: black;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 15vh;
+  padding: 1.5rem 1rem;
+  align-items: center;
+}
+
+.header {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 15vh;
+  padding: 1.5rem 1rem;
+  align-items: center;
+}
+.nav h1{
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.nav button{
+  color: blue;
+  height: 50px;
+  width: 70px;
+  font-size: 15px;
+ 
+  
+}
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 1%;
+  border-radius: 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-box {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.product-box text{
+  text-align: center;
+}
+.product-box row-one{
+  display: inline-block;
+}
+
+.product-box row-two{
+  display: inline-block;
+}
+.info{
+	font-size: 20px;
+	text-align:center;
+}
+.addlink {
+  text-decoration: none;
+}
+#product_form{
+  padding: 5%;
+}
+#sku{
+  width: 200px;
+  height: 20px;
+}
+.label-spacing{
+  margin: 50px;
+}
+
+#productType {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+form {
+  display: none;
+}
+
+form:first-of-type {
+  display: block;
+}
+
+#product1-form{
+  padding: 1%;
+  display: inline-block;
+  border: 1px solid black;
+  border-width: 1px;
+  border-spacing: 1px;
+}
+ 
+
+#product2-form{
+  padding: 1%;
+  display: inline-block;
+  border: 1px solid black;
+  border-width: 1px;
+  border-spacing: 1px;
+ 
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.nav {
+  color: black;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 15vh;
+  padding: 1.5rem 1rem;
+  align-items: center;
+}
+
+.header {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 15vh;
+  padding: 1.5rem 1rem;
+  align-items: center;
+}
+
+.nav h1 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.nav button {
+  color: blue;
+  height: 50px;
+  width: 70px;
+  font-size: 15px;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 1%;
+  border-radius: 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-box {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.product-box text {
+  text-align: center;
+}
+
+.product-box row-one {
+  display: inline-block;
+}
+
+.product-box row-two {
+  display: inline-block;
+}
+
+.info {
+  font-size: 20px;
+  text-align: center;
+}
+
+.addlink {
+  text-decoration: none;
+}
+
+#product_form {
+  padding: 5%;
+}
+
+#sku {
+  width: 200px;
+  height: 20px;
+}
+
+.label-spacing {
+  margin: 50px;
+}
+
+#productType {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+form {
+  display: none;
+}
+
+form:first-of-type {
+  display: block;
+}
+
+#product1-form {
+  padding: 1%;
+  display: inline-block;
+  border: 1px solid black;
+  border-width: 1px;
+  border-spacing: 1px;
+}
+
+#product2-form {
+  padding: 1%;
+  display: inline-block;
+  border: 1px solid black;
+  border-width: 1px;
+  border-spacing: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav h1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .nav button {
+    height: 40px;
+    width: 60px;
+    font-size: 12px;
+  }
+  
+  .product-box {
+    width: 90%;
+  }
+  
+  #product_form {
+    padding: 2%;
+  }
+  
+  #sku {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .label-spacing {
+    margin: 20px;
+  }
+  
+  #product1-form, #product2-form {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+.product-box row-one{
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .product-box {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+   
+.product-box row-one{
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+}

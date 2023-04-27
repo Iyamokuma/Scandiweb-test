@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>addproduct</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Product Add</h1>
+        <div class="button">
+            <button id= "button1" class="button">Cancel</button>
+            <button id= "button2" class="button"> Save</button>  
+            </div>
+    </div>
+    <div id="product_form">
+        <form class="add-form">
+            <label for="sku" class="label-spacing">SKU</label>
+            <input type="text" id="sku" name="sku"><br><br>
+                    
+            <label for="name" class="label-spacing">Name</label>
+            <input type="text" id="name" name="name"><br><br>
+                    
+            <label for="price" class="label-spacing">Price($)</label>
+            <input type="text" id="price" name="price"><br><br>
+          </form>
+          <div class="section2">
+            Product-type
+
+          <select id="productType">
+            <option value="Dvd">Dvd</option>
+            <option value="Furniture">Book</option>
+            <option value="Book">Furniture</option><br>
+          </select>
+          
+          <form id="Dvd" name="product1-form">
+            <!-- Product 1 form fields here -->
+            <label for="height" class="label-spacing">Size (MB)</label>
+            <input type="text" id="height" name="height"><br><br>
+            Please provide size(mb)
+
+           
+
+            
+          </form>
+          
+          <form id="Furniture" name="product2-form">
+            <!-- Product 2 form fields here -->
+            <label for="height" class="-spacing">Height (CM)</label>
+            <input type="text" id="height" name="height"><br><br>
+
+            <label for="width" class="label-spacing">Width</label>
+            <input type="text" id="width" name="width"><br><br>
+
+            <label for="Lenght" class="label-spacing">Lenght</label>
+            <input type="text" id="Lenght" name="Lenght"><br><br>
+             Please provide height, width and lenght.
+            
+
+
+          </form>
+          
+          <form id="Book" name="product3-form">
+            <!-- Product 3 form fields here -->
+            <label for="height" class="label-spacing">Weight</label>
+            <input type="text" id="height" name="height"><br><br><br>
+
+            Please provide weight.
+
+
+          </form>
+          </div>
+          
+          
+       
+
+
+    </div>
+     <script src="product-switcher.js"></script>
+    
+</body>
+</html>
